@@ -25,4 +25,15 @@ pip install -r darkeras_yolov4/requirements.txt
 ```
 pip install -r requirements.txt
 ```
-- Download arial-unicode-ms.ttf [here](https://github.com/texttechnologylab/DHd2019BoA/blob/master/fonts/Arial%20Unicode%20MS.TTF) or any font that might supported for unicode font(to change the font you can change it in models.py at line 218)
+- Download arial-unicode-ms.ttf [here](https://github.com/texttechnologylab/DHd2019BoA/blob/master/fonts/Arial%20Unicode%20MS.TTF) or any font that might supported for unicode font(to change the font you can change it in models.py at line 218).
+- (Optional) You can try this API with default configuration and trained hiragana model [here](https://drive.google.com/file/d/1kJ_9nSmBp_qPFG4I6r_fTim40bcVkmuT/view?usp=sharing)
+- Make sure to change the weight filename in API.py. For example : ```weight/[your_weight_name.weights]```
+- Make sure to change the input size and num class in API.py based on your preference when training.
+- Make sure to adjust your IP or Port preference before run the API.
+- You can change the IOU threshold and NMS to see which one works better.
+- After everything is installed you can start the API with
+```
+python API.py
+```
+
+## Request
