@@ -37,3 +37,11 @@ python API.py
 ```
 
 ## Request
+- The request endpoint is using(POST request) ```http://ip:port/api/detect``` <br>
+Resize is optional from client, however you need uncomment line 31 for resize.
+- The request input requires image that has been converted into base64.
+- The response will return </br>
+```status:boolean``` -> return status whether the request is successfull. </br>
+```Main_Image:base64``` -> return the detection result that has been rendered with bbox in bitmap(bmp) format. </br>
+```Cropped_Image:Array of image``` -> return for each bboxed images. </br>
+```Predicted:utf8-string``` -> return the predicted labels for each bbox images. </br>
