@@ -27,6 +27,8 @@ def detect():
     img = Image.open(io.BytesIO(image_bytes))
     img = img.convert('RGB')
     img = np.array(img)
+    #  Optionally un comment for resize
+    #img = cv2.resize(img, (INPUT_SIZE, INPUT_SIZE))
 
     # Load with opencv
     original_image = img.copy()
