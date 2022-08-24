@@ -1,4 +1,4 @@
-# Japanese character recognition Flask API with YOLOv4
+# Japanese character recognition Flask REST API with YOLOv4
 This repositories is adapting YOLOv4 to Flask API with Darkeras [here](https://github.com/tranleanh/darkeras-yolov4).
 The client to this API is targeted to be Java Android using retrofit.
 
@@ -40,7 +40,7 @@ python API.py
 - The request endpoint is using(POST request) ```http://ip:port/api/detect``` <br>
 Resize is optional from client, however you need uncomment line 31 for resize.
 - The request input requires image that has been converted into base64.
-- The response will return </br>
+- The response will return in JSON format </br>
 ```status:boolean``` -> return status whether the request is successfull. </br>
 ```Main_Image:base64``` -> return the detection result that has been rendered with bbox in bitmap(bmp) format. </br>
 ```Cropped_Image:Array of image``` -> return for each bboxed images. </br>
