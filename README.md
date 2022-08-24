@@ -25,3 +25,4 @@ pip install -r darkeras_yolov4/requirements.txt
 ```
 pip install -r requirements.txt
 ```
+- Download arial-unicode-ms.ttf [here](https://github.com/texttechnologylab/DHd2019BoA/blob/master/fonts/Arial%20Unicode%20MS.TTF) or any font that might supported for unicode font(to change the font you can change it in models.py at line 218)
