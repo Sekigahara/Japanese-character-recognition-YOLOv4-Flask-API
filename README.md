@@ -2,6 +2,10 @@
 This repositories is adapting YOLOv4 to Flask API with Darkeras [here](https://github.com/tranleanh/darkeras-yolov4).
 The client to this API is targeted to be Java Android using retrofit.
 
+## Main Repositories
+- High level and low level overview of the project can be found in the main repositories.
+- Main respositories can be found [here](https://github.com/Sekigahara/Multilabel-classification-Japanese-character-with-YOLOv4).
+
 ## Installation
 
 <b>This API runs on Python 3.8</b>
